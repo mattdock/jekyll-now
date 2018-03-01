@@ -72,7 +72,7 @@ prose:
         field:
           label: "author"
           element: "text"
-          value: "Hywel"
+          value: "Mattdock"
       - name: "categories"
         field:
           label: "categories"

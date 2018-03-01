@@ -84,8 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-
-prose:
-	rooturl: '/'
-  siteurl: "http://mattdock.github.io/"

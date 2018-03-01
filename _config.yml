@@ -49,8 +49,46 @@ url: "http://mattdock.github.io"
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+#
+# Prose configuration so as to edit and make posts from Prose.io
+#
 prose:
-  "_posts"
+  rooturl: ''
+  siteurl: 'mattdock.github.io'
+  media: 'assets'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          label: "layout"
+          element: "text"
+          value: "post"
+      - name: "date"
+        field:
+          label: "date"
+          element: "text"
+          value: "CURRENT_DATETIME"
+      - name: "author"
+        field:
+          label: "author"
+          element: "text"
+          value: "Hywel"
+      - name: "categories"
+        field:
+          label: "categories"
+          element: "text"
+          placeholder: "Enter categories"
+      - name: "excerpt"
+        field:
+          label: "excerpt"
+          element: "text"
+          placeholder: "Enter excerpt"
+      - name: "meta"
+        field:
+          label: "meta"
+          element: "text"
+          placeholder: "Enter metadata"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

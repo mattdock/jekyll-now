@@ -88,4 +88,4 @@ exclude:
 
 prose:
 	rooturl: '/'
-    siteurl: "http://mattdock.github.io/"
+  siteurl: "http://mattdock.github.io/"

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Second Obsurdity!
-published: false
+published: true
+date: '2018-03-09 22:19 -0600'
+author: Mattdock
 ---
 ## A New Post
 
